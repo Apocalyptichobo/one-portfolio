@@ -4,7 +4,7 @@ import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/arrayDestruct.jpg'
+import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
 // Can add a link to each part of the array to go to onclick
@@ -39,7 +39,7 @@ const Portfolio = () => {
   return (
     <div name='portfolio' className='w-full text-white bg-gradient-to-b from-black to-gray-800 sm:h-fit md:h-screen'>
         <div className='flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto'>
-            <div className='pb-8'>
+            <div className='pb-10'>
                 <p className='inline text-4xl font-bold border-b-4 border-gray-500'>Portfolio</p>
                 <p className='py-6'>Check out some of my work right here</p>
             </div>
