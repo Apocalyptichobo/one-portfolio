@@ -53,7 +53,7 @@ export const SocialLinks = () => {
             {links.map(({id, child, href, style, download}) => (
                 <li 
                 key={id} 
-                className={'flex items-center justify-between w-40 px-4 h-14 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300' + " " + style}>
+                className={`flex items-center justify-between w-40 px-4 h-14 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300 ${style}`}>
                     <a 
                     href={href} 
                     className='flex items-center justify-between w-full text-white' 
