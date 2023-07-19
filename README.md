@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# One-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to One-Portfolio! This React app is a personal website that can showcase various sections about yourself. It provides information about your background, projects, experience, and includes a contact form. It features React smooth scrolling, an intuitive navbar, and a sidebar that contains social links. The app is built using React, HTML, and JavaScript, with styling implemented using Tailwind CSS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Home Page**: The home page displays an image of yourself along with a short header, giving visitors a brief introduction.
 
-### `npm start`
+2. **About Me**: The about me section provides detailed paragraphs describing yourself, including your interests, skills, and aspirations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Portfolio**: The portfolio section showcases all the projects you have completed. It allows visitors to see the range of work you have done and provides links to the corresponding project pages or repositories. You optionally can create functionality to bring users to your projects via the buttons underneath each project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Experience**: The experience section lists the various tech stacks you have worked with, demonstrating your proficiency in different technologies, languages, and programs.
 
-### `npm test`
+5. **Contact Me**: The contact me section enables visitors to reach out to you. It includes a contact form powered by GetForm.io, which collects and sends the messages to your desired email address.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run the One-Portfolio app locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-username/one-portfolio.git
+2. Navigate to the project directory:
+   ```bash
+   cd one-portfolio
+3. Install the dependencies:
+    ```bash
+    npm install
+4. Start the development server:
+    ```bash
+    npm start
+5. Open your web browser and visit http://localhost:3000 to view the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+One-Portfolio can be deployed using Netlify, a popular hosting platform for static websites. Here's a brief guide on how to deploy your app:
 
-### `npm run eject`
+1. Create an account on Netlify if you haven't already.
+2. Connect your GitHub repository to Netlify.
+3. Configure the build settings for your app, specifying the build command as npm run build and the publish directory as build.
+4. Netlify will automatically trigger a new build and deploy your app once you push changes to the connected repository or manually initiate a deploy.
+5. Once the build process is complete, your app will be accessible through the assigned Netlify domain or a custom domain if you have set it up.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
+One-Portfolio is a beginner application made using a tutorial [here](https://www.youtube.com/watch?v=LpZrAjU6Hhk). I must thank *Yash Patel* for his easy to use tutorial in helping me get started as a Full Stack Dev.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<u>Links to the tech used in this project can be found here:</u>
+React: https://reactjs.org/
+Tailwind CSS: https://tailwindcss.com/
+GetForm.io: https://getform.io/
+Netlify: https://www.netlify.com/
+## License
+The One-Portfolio app is open source and distributed under the MIT License. Feel free to modify and customize it to suit your needs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for choosing One-Portfolio! I hope this app helps you showcase your skills, projects, and experience effectively. If you have any questions or need assistance, please don't hesitate to reach out. Good luck with your personal website!
